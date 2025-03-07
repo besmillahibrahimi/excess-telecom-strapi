@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_homepage_hero_home_heroes",
+  "info": {
+    "displayName": "homeHero",
+    "icon": "command"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

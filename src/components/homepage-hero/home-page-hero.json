@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_homepage_hero_home_page_heroes",
+  "info": {
+    "displayName": "HomePage Hero",
+    "icon": "layout"
+  },
+  "options": {},
+  "attributes": {
+    "Intro": {
+      "type": "blocks",
+      "required": true
+    },
+    "Background": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "Notice": {
+      "type": "string"
+    }
+  }
+}
