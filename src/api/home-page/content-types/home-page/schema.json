@@ -16,23 +16,14 @@
     }
   },
   "attributes": {
-    "hero": {
-      "type": "component",
-      "repeatable": false,
-      "component": "homepage-hero.home-page-hero"
-    },
     "Title": {
       "type": "string"
     },
-    "homeHero": {
-      "type": "component",
-      "repeatable": false,
-      "component": "homepage-hero.home-hero",
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      }
+    "layouts": {
+      "type": "dynamiczone",
+      "components": [
+        "homepage-hero.home-page-hero"
+      ]
     }
   }
 }

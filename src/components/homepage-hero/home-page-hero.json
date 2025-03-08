@@ -2,7 +2,8 @@
   "collectionName": "components_homepage_hero_home_page_heroes",
   "info": {
     "displayName": "HomePage Hero",
-    "icon": "layout"
+    "icon": "layout",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,18 +12,27 @@
       "required": true
     },
     "Background": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": false
+      ]
     },
     "Notice": {
       "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "licenseKey": "eyJhbGciOiJFUzI1NiJ9.eyJleHAiOjE3NzMwMTQzOTksImp0aSI6ImVhY2E4MTA2LTc5OTEtNGVlYi1hMTdjLTg5MGJiM2RkZjdjZiIsInVzYWdlRW5kcG9pbnQiOiJodHRwczovL3Byb3h5LWV2ZW50LmNrZWRpdG9yLmNvbSIsImRpc3RyaWJ1dGlvbkNoYW5uZWwiOlsiY2xvdWQiLCJkcnVwYWwiXSwiZmVhdHVyZXMiOlsiRFJVUCJdLCJ2YyI6ImY0NDg2MGU1In0.kfEGvN1-qfW0IfmDD2v75ay8Lo0P8eAPHIDmZ5wPHumxxCo9S63qZ1Bc3NV-s80l_AjEJDsPpmZHwBOezKpWfw",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
     }
   }
 }
