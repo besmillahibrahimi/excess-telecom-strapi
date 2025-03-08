@@ -8,9 +8,7 @@ export interface HomepageHeroHomePageHero extends Struct.ComponentSchema {
     icon: 'layout';
   };
   attributes: {
-    Background: Schema.Attribute.Media<
-      'images' | 'files' | 'videos' | 'audios'
-    >;
+    background: Schema.Attribute.Media<'images' | 'files' | 'videos'>;
     content: Schema.Attribute.RichText &
       Schema.Attribute.CustomField<
         'plugin::ckeditor.CKEditor',
@@ -20,8 +18,7 @@ export interface HomepageHeroHomePageHero extends Struct.ComponentSchema {
           preset: 'rich';
         }
       >;
-    Intro: Schema.Attribute.Blocks & Schema.Attribute.Required;
-    Notice: Schema.Attribute.String;
+    notice: Schema.Attribute.String;
   };
 }
 
