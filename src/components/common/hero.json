@@ -1,0 +1,60 @@
+{
+  "collectionName": "components_common_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "picture",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "notice": {
+      "type": "string",
+      "default": "Offer varies by state. Must qualify."
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "host": {
+      "type": "enumeration",
+      "enum": [
+        "transient",
+        "wic1w",
+        "ssi1w",
+        "medicaid1w",
+        "medical1w",
+        "calfresh1w",
+        "snap1w",
+        "ebt1w",
+        "california",
+        "main",
+        "main1w",
+        "byop1w",
+        "sim1w",
+        "tribal",
+        "getlifeline",
+        "gov1w",
+        "excstep",
+        "excstp",
+        "hispanic1w",
+        "infinitiex"
+      ]
+    },
+    "background": {
+      "type": "string"
+    }
+  }
+}

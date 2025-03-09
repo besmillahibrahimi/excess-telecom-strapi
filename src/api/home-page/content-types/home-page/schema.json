@@ -4,8 +4,7 @@
   "info": {
     "singularName": "home-page",
     "pluralName": "home-pages",
-    "displayName": "Home Page",
-    "description": ""
+    "displayName": "Home page"
   },
   "options": {
     "draftAndPublish": true
@@ -16,13 +15,10 @@
     }
   },
   "attributes": {
-    "Title": {
-      "type": "string"
-    },
     "layouts": {
       "type": "dynamiczone",
       "components": [
-        "homepage-hero.home-page-hero"
+        "common.hero"
       ]
     }
   }
