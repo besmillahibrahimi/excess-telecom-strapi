@@ -4,7 +4,8 @@
   "info": {
     "singularName": "home-page",
     "pluralName": "home-pages",
-    "displayName": "Home page"
+    "displayName": "Home page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,8 +19,15 @@
     "layouts": {
       "type": "dynamiczone",
       "components": [
-        "common.hero"
-      ]
+        "common.hero",
+        "common.grid",
+        "common.content"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
